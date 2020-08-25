@@ -1,4 +1,4 @@
-# Laravel 6 Full Calendar Helper
+# Laravel 7 Full Calendar Helper
 
 This is a fork of https://github.com/nelkasovic/laravel-full-calendar. A simple helper package to make generating [http://fullcalendar.io](http://fullcalendar.io) in Laravel apps easier. Because the package is abandoned I decided to fork and publish a version which should work with Laravel 6.
 
@@ -13,21 +13,6 @@ Or add the following to your composer.json's require section and `composer updat
 "require": {
 	"qlick/laravel-full-calendar": "~1.0"
 }
-```
-
-### Laravel 5.4 (and earlier)
-
-Register the service provider in your `app.php` config file:
-
-```php
-LaravelFullCalendar\FullCalendarServiceProvider::class,
-```
-
-And optionally create an alias:
-
-```php
-'Calendar' => LaravelFullCalendar\Facades\Calendar::class,
-
 ```
 
 ### Laravel 5.5+
